@@ -41,6 +41,8 @@ export const StoreModal = () => {
       setLoading(true);
 
       const response = await axios.post('/api/stores', values);
+
+      window.location.assign(`/${response.data.id}`); // for prevent error when after redirection a modal window still here
     } catch (error) {
       console.log(error);
       toast.error('Something went wrong.');

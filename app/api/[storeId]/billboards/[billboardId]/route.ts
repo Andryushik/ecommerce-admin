@@ -86,7 +86,7 @@ export async function PATCH(
       return new NextResponse('Billboard id is required', { status: 400 });
     }
 
-    const storeByUserId = await prismadb.billboard.findFirst({
+    const storeByUserId = await prismadb.store.findFirst({
       where: {
         id: params.storeId,
         userId,
@@ -97,8 +97,8 @@ export async function PATCH(
       return new NextResponse('Unauthorized', { status: 403 });
     }
 
-    const billboard = await prismadb.store.updateMany({
-      where: { id: params.billboardId, userId },
+    const billboard = await prismadb.billboard.updateMany({
+      where: { id: params.billboardId },
       data: { label, imageUrl },
     });
 

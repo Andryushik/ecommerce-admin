@@ -24,7 +24,6 @@ export const BillboardClient = () => {
           <Plus />
           Add New
         </Button>
-        Billboard Client
       </div>
       <Separator />
     </>

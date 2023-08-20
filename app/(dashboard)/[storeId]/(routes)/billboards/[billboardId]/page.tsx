@@ -15,7 +15,6 @@ const BillboardPage = async ({
     <div className="flex-col">
       <div className="flex-1 space-y-4 p-8 pt-6">
         <BillboardForm initialData={billboard} />
-        This is a form for billboards. Existing billboard: {billboard?.label}
       </div>
     </div>
   );

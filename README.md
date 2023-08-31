@@ -1,5 +1,7 @@
 # Full Stack E-Commerce + Dashboard & CMS
 
+Admin Dashboard
+
 ## Technologies
 
 Next.js 13 App Router,

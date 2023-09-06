@@ -1,6 +1,6 @@
 # Full Stack E-Commerce + Dashboard & CMS
 
-Admin Dashboard
+This is Admin Dashboard, the Store is [here](https://github.com/Andryushik/ecommerce-store)
 
 ## Technologies
 

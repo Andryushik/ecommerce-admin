@@ -1,7 +1,9 @@
 # Full Stack E-Commerce + Dashboard & CMS
 
+Demo you can see [here](https://ecommerce-admin-h3r3v1jbo-andryushik.vercel.app/)
+
 This is Admin Dashboard, the Store is [here](https://github.com/Andryushik/ecommerce-store)
-You can connect any other store to this admin also.
+You can connect any other store to this Admin Dashboard also.
 
 ## Technologies
 
